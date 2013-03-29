@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Public">
+      <UniqueIdentifier>{48725da7-72d2-4417-aefd-7f8498a9f5e5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Sources\stdafx.h" />
+    <ClInclude Include="IRC\IIRC.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Channel.h" />
+    <ClInclude Include="Sources\Client.h" />
+    <ClInclude Include="Sources\Server.h" />
+    <ClInclude Include="Sources\User.h" />
+    <ClInclude Include="Sources\UserManager.h" />
+    <ClInclude Include="Sources\ChannelManager.h" />
+    <ClInclude Include="Sources\ClientConnection.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Sources\stdafx.cpp" />
+    <ClCompile Include="Sources\IRC.cpp" />
+    <ClCompile Include="Sources\Client.cpp" />
+    <ClCompile Include="Sources\Server.cpp" />
+    <ClCompile Include="Sources\Channel.cpp" />
+    <ClCompile Include="Sources\User.cpp" />
+    <ClCompile Include="Sources\UserManager.cpp" />
+    <ClCompile Include="Sources\ChannelManager.cpp" />
+    <ClCompile Include="Sources\ClientConnection.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Sources\Sample.txt" />
+  </ItemGroup>
+</Project>
